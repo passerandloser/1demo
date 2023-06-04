@@ -10,7 +10,7 @@ def home():
 
 @app.route('/index')
 def index():
-    return 'success'
+    return render_template('index.html')
 
 
 if __name__ == '__main__':
